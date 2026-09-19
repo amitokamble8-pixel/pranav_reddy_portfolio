@@ -196,11 +196,56 @@ export const AWARDS = [
     link: "",
     featured: true,
   },
+   {
+    icon: "🎹",
+    title: "Trinity College London — Grade 6 Keyboard",
+    meta: "Music Certification",
+    detail: "Grade 6 Keyboard certification from Trinity College London, with continued study of advanced music theory and complex rhythmic patterns.",
+    link: "",
+    featured: false,
+  },
+   {
+    icon: "🥋",
+    title: "Black Belt (Shodan) — Shotokan Karate",
+    meta: "Shotokan Karate Dojo, Chennai · 2017–2025",
+    detail: "Completed 8+ years of rigorous training culminating in Black Belt (Shodan) certification, serving as a trainee and assistant at the dojo.",
+    link: "",
+    featured: true,
+  },
+   {
+    icon: "🎓",
+    title: "CS50 — Harvard University",
+    meta: "Nov–Dec 2025",
+    detail: "Completed Harvard's Introduction to Computer Science, covering algorithms, data structures, and problem-solving in C, Python, and SQL.",
+    link: "",
+    featured: false,
+  },
+   {
+    icon: "🏏",
+    title: "Cricket Team Captain — 2021–22 Season",
+    meta: "Club Cricket",
+    detail:
+      "Served as Team Captain during the 2021–22 season and represented the team in multiple club tournaments.",
+    link: "",
+    featured: false,
+  },
+   {
+    icon: "🎖️",
+    title: "Head Boy — Elected to Lead 200+ Students",
+    meta: "Gateway The Complete School · 2026–2027",
+    detail: "Elected Head Boy, organizing inter-school STEM competitions and sports meets and managing large-scale event logistics, after serving as House Captain in 2025–26.",
+    link: "",
+    featured: true,
+  },
+   {
+    icon: "⚽",
+    title: "School Football Team — Inter-School Participations",
+    meta: "Team player since 2015",
+    detail: "Participated in inter-school football tournaments, demonstrating teamwork and leadership skills.",
+    link: "",
+    featured: true,
+  },
   {
-    /* CONFLICT: the resume summary line says "4 A+ grades in IGCSE", but the
-       education section lists Mathematics A+, Physics A+, Chemistry A+ and
-       Computer Science A — i.e. three A+ and one A. Wording below follows the
-       itemised grades. Confirm which is right. */
     icon: "🎓",
     title: "IGCSE — A+ in Mathematics, Physics & Chemistry",
     meta: "Gateway The Complete School",
@@ -209,17 +254,8 @@ export const AWARDS = [
     featured: true,
   },
   {
-    icon: "🎖️",
-    title: "Head Boy — Elected to Lead 200+ Students",
-    meta: "Gateway The Complete School · 2026–2027",
-    detail: "Elected Head Boy, organizing inter-school STEM competitions and sports meets and managing large-scale event logistics, after serving as House Captain in 2025–26.",
-    link: "",
-    featured: true,
-  },
-  {
     icon: "🏅",
     title: "National-Level Olympiad Qualifier",
-    /* NOTE: portfolio PDF only — not repeated on the resume. */
     meta: "Academic Competitions",
     detail:
       "Qualified for National-Level Olympiads across multiple disciplines, with consistent participation in competitive academic assessments and strong foundations in mathematics, logical reasoning, and problem-solving.",
@@ -229,52 +265,11 @@ export const AWARDS = [
   {
     icon: "🔤",
     title: "International-Level Spell Bee Participant",
-    /* NOTE: portfolio PDF only — not repeated on the resume. */
     meta: "Language & Communication",
     detail:
       "Reached the International Level in Spell Bee competitions on multiple occasions, demonstrating advanced vocabulary, language proficiency, and verbal reasoning.",
     link: "",
     featured: true,
-  },
-  {
-    icon: "🥋",
-    /* CONFLICT: portfolio says Black Belt certified via World Funakoshi
-       Shotokan, competing 2019–2023; resume says Black Belt Trainee &
-       Assistant at Shotokan Karate Dojo Chennai, 2017–2025, culminating in
-       Shodan. Resume wording used. */
-    title: "Black Belt (Shodan) — Shotokan Karate",
-    meta: "Shotokan Karate Dojo, Chennai · 2017–2025",
-    detail: "Completed 8+ years of rigorous training culminating in Black Belt (Shodan) certification, serving as a trainee and assistant at the dojo.",
-    link: "",
-    featured: true,
-  },
-  {
-    icon: "🎹",
-    /* CONFLICT: portfolio says Trinity Grade 8 Keyboard; resume says Grade 6.
-       Resume used — confirm the current grade. */
-    title: "Trinity College London — Grade 6 Keyboard",
-    meta: "Music Certification",
-    detail: "Grade 6 Keyboard certification from Trinity College London, with continued study of advanced music theory and complex rhythmic patterns.",
-    link: "",
-    featured: false,
-  },
-  {
-    icon: "🎓",
-    title: "CS50 — Harvard University",
-    meta: "Nov–Dec 2025",
-    detail: "Completed Harvard's Introduction to Computer Science, covering algorithms, data structures, and problem-solving in C, Python, and SQL.",
-    link: "",
-    featured: false,
-  },
-  {
-    icon: "🏏",
-    title: "Cricket Team Captain — 2021–22 Season",
-    /* NOTE: portfolio PDF only — not repeated on the resume. */
-    meta: "Club Cricket",
-    detail:
-      "Served as Team Captain during the 2021–22 season and represented the team in multiple club tournaments.",
-    link: "",
-    featured: false,
   },
 ];
 
